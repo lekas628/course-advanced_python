@@ -213,7 +213,7 @@ man
 	[user@comp ~]$ basename somefile
 	somefile
 	[user@comp ~]$ dirname /home/user/somefile
-	/home/somefile
+	/home/user
 	[user@comp ~]$ dirname ./somefile
 	.
 	[user@comp ~]$ dirname somefile

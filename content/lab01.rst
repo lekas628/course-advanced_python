@@ -56,7 +56,7 @@
 
   a = (1, 0)
 
-.. image:: ../images/lab1/1.png
+.. image:: images/lab1/1.png
 
 
 .. code-block:: python
@@ -64,7 +64,7 @@
   a = (1, 0)
   b = a
 
-.. image:: ../images/lab1/2.png
+.. image:: images/lab1/2.png
 
 .. code-block:: python
 
@@ -72,7 +72,7 @@
   b = a
   a = (2, 0)
 
-.. image:: ../images/lab1/3.png
+.. image:: images/lab1/3.png
 
 Типы данных
 ===========

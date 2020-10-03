@@ -68,6 +68,7 @@
         .. code-block:: python
 
             Public variable: I'm public!
+	    Public variable: I'm public!
             Private variable: I'm too shy to be public!
             Traceback (most recent call last):
               File "private_access.py", line 13, in <module>

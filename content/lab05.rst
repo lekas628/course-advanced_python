@@ -275,7 +275,7 @@
 
         def dismiss(self):
             self.status = False
-            self.pass_to_university = None
+            self.passToUniversity = None
 
     class Student(UniversityMember):
         group = None

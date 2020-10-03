@@ -297,11 +297,11 @@
 
 В нашем случае при помощи UML_ отношение классов можно представить следующим образом:
 
-.. image:: {filename}/images/lab05/example.png
+.. image:: images/lab05/example.png
 
 И более полная версия, включающая в себя поля и методы классов:
 
-.. image:: {filename}/images/lab05/example_uml.png
+.. image:: images/lab05/example_uml.png
 
 Перегрузка методов
 +++++++++++++++++++
@@ -338,7 +338,7 @@
 
 Механизм наследования используется для моделирования отношений типа "является".
 
-.. image:: {filename}/images/lab05/liskov.jpg
+.. image:: images/lab05/liskov.jpg
 
 В случае с классами `Student`, `Teacher` и `Administrator` мы могли бы ошибочно сделать `Administrator` предком `Student` и `Teacher`, поскольку это позволяет сэкономить код, да и вроде бы они только расширяют его функциональность...
 

@@ -217,7 +217,7 @@
 
 .. code-block:: python
 
-    class Student(UniversityMember):
+    class Student:
         group = None
         passToUniversity = ''
         status = True
@@ -229,7 +229,7 @@
             self.status = False
             self.pass_to_university = None
 
-    class Teacher(UniversityMember):
+    class Teacher:
         cathedral = None
         passToUniversity = ''
         status = True
@@ -241,7 +241,7 @@
             self.status = False
             self.pass_to_university = None
 
-    class Administrator(UniversityMember):
+    class Administrator:
         passToUniversity = ''
         status = True
 

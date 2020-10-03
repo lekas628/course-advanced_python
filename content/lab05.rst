@@ -311,11 +311,11 @@
 .. code-block:: python
 
 	class Base:
-	    def hello():
+	    def hello(self):
 	        print("Hello! I'm base class!")
 
 	class Derived(Base):
-	    def hello():
+	    def hello(self):
 	        print("Hello! I'm derived class!")
 
 	b = Base()

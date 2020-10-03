@@ -384,7 +384,7 @@
 .. code-block:: python
 
 	class SuperBase: # Предок предка
-		def do(self):
+	    def do(self):
 	        print('Метод суперпредка!')
 	class Base1(SuperBase):   # Предок 1
 	    def do_it(self):

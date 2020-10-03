@@ -219,7 +219,7 @@
 
     class Student:
         group = None
-        passToUniversity = ''
+        pass_to_university = ''
         status = True
 
         def checkStatus(self):
@@ -231,7 +231,7 @@
 
     class Teacher:
         cathedral = None
-        passToUniversity = ''
+        pass_to_university = ''
         status = True
 
         def checkStatus(self):
@@ -242,7 +242,7 @@
             self.pass_to_university = None
 
     class Administrator:
-        passToUniversity = ''
+        pass_to_university = ''
         status = True
 
         def checkStatus(self):
@@ -267,7 +267,7 @@
 .. code-block:: python
 
     class UniversityMember:
-        passToUniversity = ''
+        pass_to_university = ''
         status = True
 
         def checkStatus(self):
@@ -275,7 +275,7 @@
 
         def dismiss(self):
             self.status = False
-            self.passToUniversity = None
+            self.pass_to_university = None
 
     class Student(UniversityMember):
         group = None
